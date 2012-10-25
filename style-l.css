@@ -1,0 +1,220 @@
+
+body.background-cover {
+	background: white url(http://placekitten.com/g/825/508) center fixed no-repeat;
+	background-size: cover;
+}
+
+#wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.emergency {
+	color: red;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.slideshow-wrapper {
+	height: 30em;
+}
+
+.logo-wrapper {
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+}
+.logo {
+	text-align: center;
+	padding: 1em 0;
+}
+
+
+.menu-1a-wrapper {
+	float: right;
+	width: 65%;
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.menu-1a-wrapper ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.menu-1a-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	margin-right: 2%;
+	display: inline;
+}
+.menu-1a-wrapper .search-wrapper {
+	clear: both;
+	text-align: right;
+}
+.menu-1a-wrapper .search-wrapper .search {
+	padding-top: 1em;
+}
+.menu-1a-wrapper .search-wrapper input {
+	border: 1px solid black;
+	padding: 3px;
+	width: 25%;
+}
+.menu-1a-wrapper .search-wrapper img {
+	vertical-align: middle;
+}
+
+.menu-1b-wrapper {
+	float: right;
+	width: 65%;
+	margin-top: 0;
+	border-top: 0;	
+}
+.menu-1b-wrapper ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.menu-1b-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	margin-right: 2%;
+	display: inline;
+}
+
+
+
+.menu-2 {
+	display: none;
+}
+
+
+.lg-wrapper {
+	margin-right: 2%;
+	float: left;
+	width: 49%;
+}
+.lg h3 {
+	text-align: left;
+}
+.lg-item {
+	float: left;
+	width: 25%;
+	border: 0;
+	padding: 0 4%;
+	border-right: 1px solid black;
+}
+
+.lg-item.last {
+	padding-right: 0;
+	border-right: 0;
+}
+
+.lg-item .lg-photo img {
+	width: 100%;
+	height: auto;
+}
+
+.featured-video-wrapper {
+	float: left;
+	width: 32%;
+	margin-right: 2%
+}
+.featured-video h3 {
+	text-align: left;
+}
+.featured-video .video {
+	text-align: center;
+}
+.featured-video .video img {
+	width: 90%;
+	height: auto;
+}
+
+
+.action-wrapper {
+	float: right;
+	width: 15%;
+}
+.applynow {
+	text-align: center;
+}
+
+.keylinks h5 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 1em;
+}
+.keylinks ul {
+	margin: 0;
+	padding: 0;
+}
+.keylinks ul li {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+.footer-wrapper {
+	clear: both;
+}
+.footer {
+	text-align: center;
+	position: relative;
+}
+
+.footer-links {
+	float: left;
+	width: 50%;
+}
+.footer-links ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 70%;
+}
+.footer-links ul li {
+	float: left;
+	text-align: center;
+	border-right: 1px solid black;
+	padding: 0 2%;
+	list-style-type: none;
+	margin: 0;
+}
+.footer-links ul li.last {
+	border-right: 0;
+}
+
+.footer-connect {
+	float: right;
+	width: 50%;
+}
+.footer-connect h5 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-connect a {
+	margin: 0 0.5%;
+}
+.footer-connect a img {
+	width: 23px;
+	height: auto;
+}
+
+.footer-info {
+	float: left;
+	width: 50%;
+	margin-top: 55px;
+}
+
+.suny {
+	float: right;
+	margin: 25px;
+}

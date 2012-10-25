@@ -1,0 +1,194 @@
+.graybox h3 {
+	text-align: left;
+}
+
+
+.emergency {
+	color: red;
+}
+
+.logo-wrapper {
+	float: left;
+	width: 38%;
+	margin-right: 2%;
+}
+.logo {
+	text-align: center;
+	padding: 1em 0;
+}
+
+.menu-1a-wrapper {
+	float: right;
+	width: 55%;
+}
+.menu-1a-wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+.menu-1a-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+.menu-1a-wrapper .search-wrapper {
+	clear: both;
+	text-align: right;
+}
+.menu-1a-wrapper .search-wrapper .search {
+	padding-top: 1em;
+}
+.menu-1a-wrapper .search-wrapper input {
+	border: 1px solid black;
+	padding: 3px;
+	width: 50%;
+}
+.menu-1a-wrapper .search-wrapper img {
+	vertical-align: middle;
+}
+
+.menu-1b-wrapper {
+	clear: both;
+}
+.menu-1b-wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+.menu-1b-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+	width: 16%;
+}
+
+
+.menu-2 {
+	display: none;
+}
+
+.slideshow img {
+	width: 100%;
+}
+
+
+.lg-wrapper {
+	clear: both;
+}
+.lg-item {
+	float: left;
+	width: 25%;
+	border: 0;
+	padding: 0 4%;
+	border-right: 1px solid black;
+}
+
+.lg-item.last {
+	padding-right: 0;
+	border-right: 0;
+}
+
+.lg-item .lg-photo img {
+	width: 100%;
+	height: auto;
+}
+
+.featured-video-wrapper {
+	float: left;
+	width: 65%;
+}
+.featured-video .video {
+	text-align: center;
+}
+.featured-video .video img {
+	width: 90%;
+	height: auto;
+}
+
+.action-wrapper {
+	float: right;
+	width: 30%;
+}
+
+.applynow {
+	text-align: center;
+}
+
+.keylinks h5 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 1em;
+}
+.keylinks ul {
+	margin: 0;
+	padding: 0;
+}
+.keylinks ul li {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+.footer-wrapper {
+	clear: both;
+}
+.footer {
+	text-align: center;
+	position: relative;
+}
+
+.footer-links {
+	float: left;
+	width: 50%;
+}
+.footer-links ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 70%;
+}
+.footer-links ul li {
+	float: left;
+	text-align: center;
+	border-right: 1px solid black;
+	padding: 0 2%;
+	list-style-type: none;
+	margin: 0;
+}
+.footer-links ul li.last {
+	border-right: 0;
+}
+
+.footer-connect {
+	float: right;
+	width: 50%;
+}
+.footer-connect h5 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-connect a {
+	margin: 0 1%;
+}
+.footer-connect a img {
+	width: 35px;
+	height: auto;
+}
+
+.footer-info {
+	float: left;
+	width: 50%;
+	margin-top: 55px;
+}
+
+.suny {
+	float: right;
+	margin: 25px;
+}
