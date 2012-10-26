@@ -48,6 +48,8 @@
 .menu-2 .keylinks {
 	display: block;
 	clear: both;
+	border: 0;
+	padding: 0;
 }
 .menu-2 .keylinks h5 {
 	text-transform: uppercase;
@@ -104,7 +106,11 @@
 	height: auto;
 }
 
-.applynow {
+.applynow,
+.open-house,
+.app-stores,
+.accolades,
+.college-portrait {
 	text-align: center;
 }
 
