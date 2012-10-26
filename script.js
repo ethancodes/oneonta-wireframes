@@ -33,6 +33,26 @@ function viewportGo() {
 	
 		$('.slideshow').html('<img src="http://placekitten.com/g/825/508" alt="aww">');
 		$('body').removeClass('background-cover');
+		
+		$('.dropclick:not(.dropclicked)').each(function() {
+			// trick this out into a slick little drop down menu
+			
+			$(this).children().wrapAll('<div class="dropclick-items"></div>');
+			
+			var id = $(this).attr('id');
+			var label = id.replace("-", " ");
+			label = label.replace(/^([a-z])|\s+([a-z])/g, function ($1) {
+			    return $1.toUpperCase();
+			});
+			$(this).prepend('<div class="dropclick-menu">' + label + '</div>');
+			
+			$(this).children('.dropclick-menu').on('click', function() {
+				$(this).siblings('.dropclick-items').slideToggle();
+			});
+			
+			$(this).addClass('dropclicked');
+			
+		});
 	
 	} else if (thisviewport == "l") {
 	

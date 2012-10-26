@@ -48,3 +48,15 @@ a img {
 .logo {
 	text-align: center;
 }
+
+.dropclick-menu {
+	text-transform: uppercase;
+	background: transparent url(images/dropclick.jpg) 5px 5px no-repeat;
+	padding: 1% 28px;
+	cursor: pointer;
+}
+.dropclicked .dropclick-items {
+	display: none;
+	border-top: 1px solid black;
+	padding-top: 1em;
+}
