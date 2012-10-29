@@ -70,11 +70,84 @@
 	display: none;
 }
 
-.slideshow img {
-	width: 100%;
+/* left column secondary nav all kinds of dropclickable */
+.menu-3 {
+	width: 50%;
+	float: right;
+}
+.breadcrumb-wrapper {
+	display: none;
+	width: 30%;
+	float: left;
+}
+.menu-wrapper .breadcrumb-wrapper {
+	display: block;
+}
+.menu-3 .graybox {
+	border: 0;
+}
+.menu-3 .dropclick-menu {
+	background: transparent url(images/dropclick.jpg) 100% 5px no-repeat;
+	text-align: right;
+}
+.dropclickedmenu .dropclickmenu-display .keylinks h5 {
+	text-align: left;
+}
+.dropclickedmenu .dropclickmenu-display ul {
+	margin: 2%;
+	padding: 0;
+	float: left;
+	width: 45%;
+}
+.dropclickedmenu .dropclickmenu-display ul li {
+	list-style-type: none;
+	margin: 1% 0;
+	padding: 0;
+	text-align: left !important;
 }
 
 
+
+.layout-wrapper {
+	clear: both;
+}
+
+
+
+.slideshow img {
+	width: 100%;
+	height: auto;
+}
+
+/* admissions slideshow */
+.slideshow-admissions-wrapper {
+	position: relative;
+}
+.slideshow-admissions {
+	line-height: 0;
+}
+.slideshow-admissions img {
+	width: 100%;
+	height: auto;
+}
+.slideshow-admissions-text {
+	position: absolute;
+	left: 6.875%;
+	bottom: 3.4375%;
+	font-size: 400%;
+	line-height: 1.25em;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+
+/* admissions main content */
+.main-content-wrapper p {
+	margin: 3.4375% 6.875%;
+}
+
+
+/* home page latest and greatest */
 .lg-wrapper {
 	clear: both;
 }
@@ -108,14 +181,33 @@
 	height: auto;
 }
 
+
+/* admissions content wrapper */
+.content-wrapper {
+	float: left;
+	width: 65%;
+}
+body.admissions .featured-video-wrapper {
+	float: none;
+	width: 100%;
+}
+
+
+/* action things */
 .action-wrapper {
 	float: right;
 	width: 30%;
 }
 
-.applynow {
+/* action buttons */
+.applynow,
+.open-house,
+.app-stores,
+.accolades,
+.college-portrait {
 	text-align: center;
 }
+
 
 .keylinks h5 {
 	text-align: center;

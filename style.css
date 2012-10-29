@@ -1,4 +1,9 @@
 
+/*
+ * these are elements that appear EVERYWHERE regardless of "size"
+ */
+
+
 body {
 	padding: 0;
 	margin: 0;
@@ -49,7 +54,15 @@ a img {
 	text-align: center;
 }
 
-.dropclick-menu {
+.dropclickedmenu .graybox {
+	border: 0;
+	background-color: transparent;
+}
+.dropclickedmenu .dropclickmenu-display {
+	clear: both;
+}
+
+.dropclicked .dropclick-menu {
 	text-transform: uppercase;
 	background: transparent url(images/dropclick.jpg) 5px 5px no-repeat;
 	padding: 1% 28px;
@@ -59,4 +72,24 @@ a img {
 	display: none;
 	border-top: 1px solid black;
 	padding-top: 1em;
+}
+
+
+.recent-posts {
+	background-image: url(images/connect-facebook.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+.breadcrumb-wrapper {
+	margin: 3.4375% 6.875%;;
+}
+.breadcrumb-wrapper .breadcrumb,
+.breadcrumb-wrapper .breadcrumb a {
+	display: inline;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.breadcrumb-wrapper .breadcrumb.last a {
+	font-weight: bold;
 }

@@ -1,5 +1,5 @@
 
-body.background-cover {
+body.home.background-cover {
 	background: white url(http://placekitten.com/g/825/508) center fixed no-repeat;
 	background-size: cover;
 }
@@ -91,7 +91,82 @@ body.background-cover {
 	display: none;
 }
 
+/* left column secondary nav */
+.menu-3 {
+	float: left;
+	width: 15%;
+}
+.menu-3 ul {
+	margin: 0;
+	padding: 0;
+}
+.menu-3 ul li {
+	list-style-type: none;
+	margin: 2% 0;
+	padding: 0;
+}
+.menu-3 .keylinks {
+	background-color: white;
+}
+.menu-3 .keylinks h5 {
+	text-align: left;
+	margin: 0;
+}
+.menu-3 .keylinks ul li {
+	text-align: left;
+}
 
+
+
+
+.breadcrumb-wrapper {
+	display: none;
+}
+
+
+/* admissions layout */
+.layout-wrapper {
+	float: right;
+	width: 79.513%;
+}
+/* admissions slideshow */
+.slideshow-admissions-wrapper {
+	position: relative;
+}
+.slideshow-admissions {
+	line-height: 0;
+}
+.slideshow-admissions img {
+	width: 100%;
+	height: auto;
+}
+.slideshow-admissions-text {
+	position: absolute;
+	left: 6.875%;
+	bottom: 3.4375%;
+	font-size: 400%;
+	line-height: 1.25em;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+
+.sublayout-wrapper {
+	float: left;
+	width: 74.454%;
+}
+body.admissions .recent-posts-wrapper,
+body.admissions .featured-video-wrapper {
+	width: 47%;
+	float: left;
+	margin-right: 2.5%;
+}
+body.admissions .featured-video-wrapper {
+	margin-right: 0;
+}
+
+
+/* home page latest and greatest */
 .lg-wrapper {
 	margin-right: 2%;
 	float: left;
@@ -139,9 +214,18 @@ body.background-cover {
 	float: right;
 	width: 15%;
 }
-.applynow {
+body.admissions .action-wrapper {
+	width: 24%;
+}
+/* action buttons */
+.applynow,
+.open-house,
+.app-stores,
+.accolades,
+.college-portrait {
 	text-align: center;
 }
+
 
 .keylinks h5 {
 	text-align: center;
