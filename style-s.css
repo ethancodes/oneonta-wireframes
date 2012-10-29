@@ -111,19 +111,23 @@
 }
 
 
-body.admissions .menu-wrapper {
+body.admissions .menu-wrapper,
+body.eop .menu-wrapper {
 	position: relative;
 }
-body.admissions .menu-2 {
+body.admissions .menu-2,
+body.eop .menu-2 {
 	float: left;
 	width: 42%;
 }
-body.admissions .menu-3 {
+body.admissions .menu-3,
+body.eop .menu-3 {
 	float: right;
 	width: 42%;
 }
 
-body.admissions .menu-wrapper .breadcrumb-wrapper {
+body.admissions .menu-wrapper .breadcrumb-wrapper,
+body.eop .menu-wrapper .breadcrumb-wrapper {
 	display: none;
 }
 body.admissions .breadcrumb-wrapper {
@@ -246,14 +250,17 @@ body.admissions .breadcrumb-wrapper {
 
 
 /* admissions slideshow */
-.slideshow-admissions {
+.slideshow-admissions,
+.slideshow-eop {
 	line-height: 0;
 }
-.slideshow-admissions img {
+.slideshow-admissions img,
+.slideshow-eop img {
 	width: 100%;
 	height: auto;
 }
-.slideshow-admissions-text {
+.slideshow-admissions-text,
+.slideshow-eop-text {
 	background-color: black;
 	color: white;
 	text-transform: uppercase;
@@ -284,6 +291,13 @@ body.admissions .breadcrumb-wrapper {
 .accolades,
 .college-portrait {
 	text-align: center;
+}
+
+.right-column {
+	border-top: 1px solid black;
+	clear: both;
+	margin: 3.4375% 6.875%;
+	padding-top: 1em;
 }
 
 .keylinks {

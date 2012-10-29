@@ -130,18 +130,23 @@ body.home.background-cover {
 	width: 79.513%;
 }
 /* admissions slideshow */
-.slideshow-admissions-wrapper {
+.slideshow-admissions-wrapper,
+.slideshow-eop-wrapper {
 	position: relative;
 }
-.slideshow-admissions {
+.slideshow-admissions,
+.slideshow-eop {
 	line-height: 0;
 }
-.slideshow-admissions img {
+.slideshow-admissions img,
+.slideshow-eop img {
 	width: 100%;
 	height: auto;
 }
-.slideshow-admissions-text {
+.slideshow-admissions-text,
+.slideshow-eop-text {
 	position: absolute;
+	width: 85%;
 	left: 6.875%;
 	bottom: 3.4375%;
 	font-size: 400%;
@@ -224,6 +229,13 @@ body.admissions .action-wrapper {
 .accolades,
 .college-portrait {
 	text-align: center;
+}
+
+.right-column {
+	border-left: 1px solid black;
+	padding-left: 2%;
+	float: right;
+	width: 22%;
 }
 
 
