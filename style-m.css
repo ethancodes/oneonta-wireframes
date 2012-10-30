@@ -2,7 +2,6 @@
 	text-align: left;
 }
 
-
 .emergency {
 	color: red;
 }
@@ -17,227 +16,8 @@
 	padding: 1em 0;
 }
 
-.menu-1a-wrapper {
-	float: right;
-	width: 55%;
-}
-.menu-1a-wrapper ul {
-	margin: 0;
-	padding: 0;
-}
-.menu-1a-wrapper ul li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	float: left;
-	text-align: center;
-	width: 25%;
-}
-.menu-1a-wrapper .search-wrapper {
-	clear: both;
-	text-align: right;
-}
-.menu-1a-wrapper .search-wrapper .search {
-	padding-top: 1em;
-}
-.menu-1a-wrapper .search-wrapper input {
-	border: 1px solid black;
-	padding: 3px;
-	width: 50%;
-}
-.menu-1a-wrapper .search-wrapper img {
-	vertical-align: middle;
-}
 
-.menu-1b-wrapper {
-	clear: both;
-}
-.menu-1b-wrapper ul {
-	margin: 0;
-	padding: 0;
-}
-.menu-1b-wrapper ul li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	float: left;
-	text-align: center;
-	width: 16%;
-}
-
-
-.menu-2 {
-	display: none;
-}
-
-/* left column secondary nav all kinds of dropclickable */
-.menu-3 {
-	width: 50%;
-	float: right;
-}
-.breadcrumb-wrapper {
-	display: none;
-	width: 30%;
-	float: left;
-}
-.menu-wrapper .breadcrumb-wrapper {
-	display: block;
-}
-.menu-3 .graybox {
-	border: 0;
-}
-.menu-3 .dropclick-menu {
-	background: transparent url(images/dropclick.jpg) 100% 5px no-repeat;
-	text-align: right;
-}
-.dropclickedmenu .dropclickmenu-display .keylinks h5 {
-	text-align: left;
-}
-.dropclickedmenu .dropclickmenu-display ul {
-	margin: 2%;
-	padding: 0;
-	float: left;
-	width: 45%;
-}
-.dropclickedmenu .dropclickmenu-display ul li {
-	list-style-type: none;
-	margin: 1% 0;
-	padding: 0;
-	text-align: left !important;
-}
-
-
-
-.layout-wrapper {
-	clear: both;
-}
-
-
-
-.slideshow img {
-	width: 100%;
-	height: auto;
-}
-
-/* admissions slideshow */
-.slideshow-admissions-wrapper,
-.slideshow-eop-wrapper {
-	position: relative;
-}
-.slideshow-admissions,
-.slideshow-eop {
-	line-height: 0;
-}
-.slideshow-admissions img,
-.slideshow-eop img {
-	width: 100%;
-	height: auto;
-}
-.slideshow-admissions-text,
-.slideshow-eop-text {
-	position: absolute;
-	width: 85%;
-	left: 6.875%;
-	bottom: 3.4375%;
-	font-size: 400%;
-	line-height: 1.25em;
-	font-weight: bold;
-	color: white;
-	text-transform: uppercase;
-}
-
-/* admissions main content */
-.main-content-wrapper p {
-	margin: 3.4375% 6.875%;
-}
-
-
-/* home page latest and greatest */
-.lg-wrapper {
-	clear: both;
-}
-.lg-item {
-	float: left;
-	width: 25%;
-	border: 0;
-	padding: 0 4%;
-	border-right: 1px solid black;
-}
-
-.lg-item.last {
-	padding-right: 0;
-	border-right: 0;
-}
-
-.lg-item .lg-photo img {
-	width: 100%;
-	height: auto;
-}
-
-.featured-video-wrapper {
-	float: left;
-	width: 65%;
-}
-.featured-video .video {
-	text-align: center;
-}
-.featured-video .video img {
-	width: 90%;
-	height: auto;
-}
-
-
-/* admissions content wrapper */
-.content-wrapper {
-	float: left;
-	width: 65%;
-}
-body.admissions .featured-video-wrapper {
-	float: none;
-	width: 100%;
-}
-
-
-/* action things */
-.action-wrapper {
-	float: right;
-	width: 30%;
-}
-
-/* action buttons */
-.applynow,
-.open-house,
-.app-stores,
-.accolades,
-.college-portrait {
-	text-align: center;
-}
-
-.right-column {
-	border-top: 1px solid black;
-	clear: both;
-	margin: 3.4375% 6.875%;
-	padding-top: 1em;
-}
-
-.keylinks h5 {
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: normal;
-	margin: 1em;
-}
-.keylinks ul {
-	margin: 0;
-	padding: 0;
-}
-.keylinks ul li {
-	list-style-type: none;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-}
-
-
+/* footer stuff */
 .footer-wrapper {
 	clear: both;
 }
@@ -253,10 +33,9 @@ body.admissions .featured-video-wrapper {
 .footer-links ul {
 	margin: 0 auto;
 	padding: 0;
-	width: 70%;
 }
 .footer-links ul li {
-	float: left;
+	display: inline;
 	text-align: center;
 	border-right: 1px solid black;
 	padding: 0 2%;

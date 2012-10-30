@@ -64,7 +64,7 @@ a img {
 
 .dropclicked .dropclick-menu {
 	text-transform: uppercase;
-	background: transparent url(images/dropclick.jpg) 5px 5px no-repeat;
+	background: transparent url(/images/dropclick.jpg) 5px 5px no-repeat;
 	padding: 1% 28px;
 	cursor: pointer;
 }
@@ -76,7 +76,7 @@ a img {
 
 
 .recent-posts {
-	background-image: url(images/connect-facebook.jpg);
+	background-image: url(/images/connect-facebook.jpg);
 	background-position: top right;
 	background-repeat: no-repeat;
 }

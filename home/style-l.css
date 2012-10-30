@@ -1,0 +1,154 @@
+
+body.home.background-cover {
+	background: white url(http://placekitten.com/g/825/508) center fixed no-repeat;
+	background-size: cover;
+}
+
+.slideshow-wrapper {
+	height: 30em;
+}
+
+/* header menu stuff */
+.menu-1a-wrapper {
+	float: right;
+	width: 65%;
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.menu-1a-wrapper ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.menu-1a-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	margin-right: 2%;
+	display: inline;
+}
+.menu-1a-wrapper .search-wrapper {
+	clear: both;
+	text-align: right;
+}
+.menu-1a-wrapper .search-wrapper .search {
+	padding-top: 1em;
+}
+.menu-1a-wrapper .search-wrapper input {
+	border: 1px solid black;
+	padding: 3px;
+	width: 25%;
+}
+.menu-1a-wrapper .search-wrapper img {
+	vertical-align: middle;
+}
+
+.menu-1b-wrapper {
+	float: right;
+	width: 65%;
+	margin-top: 0;
+	border-top: 0;	
+}
+.menu-1b-wrapper ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.menu-1b-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	margin-right: 2%;
+	display: inline;
+}
+
+
+/* for smaller sizes */
+.menu-2 {
+	display: none;
+}
+
+
+/* no breadcrumbs here for some reason */
+.breadcrumb-wrapper {
+	display: none;
+}
+
+
+/* home page latest and greatest */
+.lg-wrapper {
+	margin-right: 2%;
+	float: left;
+	width: 49%;
+}
+.lg h3 {
+	text-align: left;
+}
+.lg-item {
+	float: left;
+	width: 25%;
+	border: 0;
+	padding: 0 4%;
+	border-right: 1px solid black;
+}
+
+.lg-item.last {
+	padding-right: 0;
+	border-right: 0;
+}
+
+.lg-item .lg-photo img {
+	width: 100%;
+	height: auto;
+}
+
+/* featured video */
+.featured-video-wrapper {
+	float: left;
+	width: 32%;
+	margin-right: 2%
+}
+.featured-video h3 {
+	text-align: left;
+}
+.featured-video .video {
+	text-align: center;
+}
+.featured-video .video img {
+	width: 90%;
+	height: auto;
+}
+
+
+.action-wrapper {
+	float: right;
+	width: 15%;
+}
+
+/* action buttons */
+.applynow,
+.open-house,
+.app-stores,
+.accolades,
+.college-portrait {
+	text-align: center;
+}
+
+.keylinks h5 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 1em;
+}
+.keylinks ul {
+	margin: 0;
+	padding: 0;
+}
+.keylinks ul li {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}

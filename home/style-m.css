@@ -1,0 +1,133 @@
+
+/* header menu stuff */
+.menu-1a-wrapper {
+	float: right;
+	width: 55%;
+}
+.menu-1a-wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+.menu-1a-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+.menu-1a-wrapper .search-wrapper {
+	clear: both;
+	text-align: right;
+}
+.menu-1a-wrapper .search-wrapper .search {
+	padding-top: 1em;
+}
+.menu-1a-wrapper .search-wrapper input {
+	border: 1px solid black;
+	padding: 3px;
+	width: 50%;
+}
+.menu-1a-wrapper .search-wrapper img {
+	vertical-align: middle;
+}
+
+.menu-1b-wrapper {
+	clear: both;
+}
+.menu-1b-wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+.menu-1b-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+	width: 16%;
+}
+
+
+.menu-2 {
+	display: none;
+}
+
+
+/* home page slide show */
+.slideshow img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* home page latest and greatest */
+.lg-wrapper {
+	clear: both;
+}
+.lg-item {
+	float: left;
+	width: 25%;
+	border: 0;
+	padding: 0 4%;
+	border-right: 1px solid black;
+}
+
+.lg-item.last {
+	padding-right: 0;
+	border-right: 0;
+}
+
+.lg-item .lg-photo img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* featured video */
+.featured-video-wrapper {
+	float: left;
+	width: 65%;
+}
+.featured-video .video {
+	text-align: center;
+}
+.featured-video .video img {
+	width: 90%;
+	height: auto;
+}
+
+
+
+/* action things */
+.action-wrapper {
+	float: right;
+	width: 30%;
+}
+
+/* action buttons */
+.applynow,
+.open-house,
+.app-stores,
+.accolades,
+.college-portrait {
+	text-align: center;
+}
+
+
+.keylinks h5 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 1em;
+}
+.keylinks ul {
+	margin: 0;
+	padding: 0;
+}
+.keylinks ul li {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}

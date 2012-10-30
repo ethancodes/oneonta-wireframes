@@ -1,0 +1,124 @@
+
+.menu-1 {
+	display: none;
+}
+
+
+/* our small-format menu */
+.menu-2 .search {
+	text-align: center;
+}
+.menu-2 .search input {
+	border: 1px solid black;
+	padding: 3px;
+	width: 75%;
+}
+.menu-2 .search-wrapper img {
+	vertical-align: middle;
+}
+.menu-2 .menu-2b-wrapper {
+	clear: both;
+	margin: 1em 0;
+	padding-bottom: 1em;
+	border-bottom: 1px solid black;
+}
+
+.menu-2 .menu-2b-wrapper .main-nav-wrapper {
+	float: left;
+	width: 50%;
+	border-right: 1px solid black;
+}
+
+.menu-2 .menu-2b-wrapper .audience-nav-wrapper {
+	float: right;
+	width: 49%;
+}
+
+.menu-2 .menu-2b-wrapper ul {
+	margin: 0 1em;
+	padding: 0;
+}
+.menu-2 .menu-2b-wrapper ul li {
+	list-style-type: none;
+}
+
+.menu-2 .keylinks {
+	display: block;
+	clear: both;
+	border: 0;
+	padding: 0;
+}
+.menu-2 .keylinks h5 {
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 1em;
+}
+.menu-2 .keylinks ul {
+	margin: 0 1em;
+	padding: 0;
+}
+.menu-2 .keylinks ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 50%;
+}
+
+
+
+/* home page slideshow */
+.slideshow img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* home page latest and greatest */
+.lg-item {
+	margin: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid white;
+	clear: both;
+	position: relative;
+}
+
+.lg-item .lg-photo {
+	width: 35%;
+	margin-right: 1em;
+}
+
+.lg-item .lg-photo img {
+	width: 100%;
+	height: auto;
+}
+
+.lg-item .lg-text {
+	position: absolute;
+	bottom: 1em;
+	left: 40%;
+}
+
+
+/* home page featured video */
+.featured-video .video {
+	text-align: center;
+}
+.featured-video .video img {
+	width: 90%;
+	height: auto;
+}
+
+
+/* action buttons */
+.applynow,
+.open-house,
+.app-stores,
+.accolades,
+.college-portrait {
+	text-align: center;
+}
+
+.keylinks {
+	display: none;
+}

@@ -1,0 +1,190 @@
+
+
+/* header menu */
+.menu-1a-wrapper {
+	float: right;
+	width: 65%;
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.menu-1a-wrapper ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.menu-1a-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	margin-right: 2%;
+	display: inline;
+}
+.menu-1a-wrapper .search-wrapper {
+	clear: both;
+	text-align: right;
+}
+.menu-1a-wrapper .search-wrapper .search {
+	padding-top: 1em;
+}
+.menu-1a-wrapper .search-wrapper input {
+	border: 1px solid black;
+	padding: 3px;
+	width: 25%;
+}
+.menu-1a-wrapper .search-wrapper img {
+	vertical-align: middle;
+}
+
+.menu-1b-wrapper {
+	float: right;
+	width: 65%;
+	margin-top: 0;
+	border-top: 0;	
+}
+.menu-1b-wrapper ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.menu-1b-wrapper ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	margin-right: 2%;
+	display: inline;
+}
+
+
+
+.menu-2 {
+	display: none;
+}
+
+/* left column secondary nav */
+.menu-3 {
+	float: left;
+	width: 15%;
+}
+.menu-3 ul {
+	margin: 0;
+	padding: 0;
+}
+.menu-3 ul li {
+	list-style-type: none;
+	margin: 2% 0;
+	padding: 0;
+}
+.menu-3 .keylinks {
+	background-color: white;
+}
+.menu-3 .keylinks h5 {
+	text-align: left;
+	margin: 0;
+}
+.menu-3 .keylinks ul li {
+	text-align: left;
+}
+
+
+
+
+.breadcrumb-wrapper {
+	display: none;
+}
+
+
+/* admissions layout */
+.layout-wrapper {
+	float: right;
+	width: 79.513%;
+}
+/* admissions slideshow */
+.slideshow-admissions-wrapper {
+	position: relative;
+}
+.slideshow-admissions {
+	line-height: 0;
+}
+.slideshow-admissions img {
+	width: 100%;
+	height: auto;
+}
+.slideshow-admissions-text {
+	position: absolute;
+	width: 85%;
+	left: 6.875%;
+	bottom: 3.4375%;
+	font-size: 400%;
+	line-height: 1.25em;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+
+.sublayout-wrapper {
+	float: left;
+	width: 74.454%;
+}
+.recent-posts-wrapper,
+.featured-video-wrapper {
+	width: 47%;
+	float: left;
+	margin-right: 2.5%;
+}
+.featured-video-wrapper {
+	margin-right: 0;
+}
+
+
+/* featured video */
+.featured-video-wrapper {
+	float: left;
+	width: 32%;
+	margin-right: 2%
+}
+.featured-video h3 {
+	text-align: left;
+}
+.featured-video .video {
+	text-align: center;
+}
+.featured-video .video img {
+	width: 90%;
+	height: auto;
+}
+
+
+.action-wrapper {
+	float: right;
+	width: 24%;
+}
+
+/* action buttons */
+.applynow,
+.open-house,
+.app-stores,
+.accolades,
+.college-portrait {
+	text-align: center;
+}
+
+
+.keylinks h5 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 1em;
+}
+.keylinks ul {
+	margin: 0;
+	padding: 0;
+}
+.keylinks ul li {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+

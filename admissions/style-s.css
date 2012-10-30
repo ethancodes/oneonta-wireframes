@@ -1,0 +1,151 @@
+
+.menu-1 {
+	display: none;
+}
+
+
+/* our small-format menu */
+.menu-2 {
+	float: left;
+	width: 42%;
+}
+.menu-3 {
+	float: right;
+	width: 42%;
+}
+
+.menu-wrapper .breadcrumb-wrapper {
+	display: none;
+}
+.breadcrumb-wrapper {
+	margin: 3.4375% 6.875%;
+	clear: both;
+}
+
+.dropclickedmenu .dropclickmenu-display .search {
+	text-align: center;
+}
+.dropclickedmenu .dropclickmenu-display .search input {
+	border: 1px solid black;
+	padding: 3px;
+	width: 75%;
+}
+.dropclickedmenu .dropclickmenu-display .search-wrapper img {
+	vertical-align: middle;
+}
+.dropclickedmenu .dropclickmenu-display .menu-2b-wrapper {
+	clear: both;
+	margin: 1em 0;
+}
+
+.dropclickedmenu .dropclickmenu-display .menu-2b-wrapper .main-nav-wrapper {
+	float: left;
+	width: 50%;
+	border-right: 1px solid black;
+}
+
+.dropclickedmenu .dropclickmenu-display .menu-2b-wrapper .audience-nav-wrapper {
+	float: right;
+	width: 49%;
+}
+
+.dropclickedmenu .dropclickmenu-display .menu-2b-wrapper ul {
+	margin: 0 1em;
+	padding: 0;
+}
+.dropclickedmenu .dropclickmenu-display .menu-2b-wrapper ul li {
+	list-style-type: none;
+}
+
+
+.dropclickedmenu .dropclickmenu-display .keylinks {
+	display: none;
+}
+
+.dropclickedmenu .dropclickmenu-display .dropclick-menu {
+	background: transparent url(/images/dropclick.jpg) 100% 5px no-repeat;
+	text-align: right;
+	padding-left: 0;
+}
+.dropclickedmenu .dropclickmenu-display ul {
+	margin: 2%;
+	padding: 0;
+}
+.dropclickedmenu .dropclickmenu-display ul li {
+	list-style-type: none;
+	margin: 1% 0;
+	padding: 0;
+	text-align: left !important;
+}
+.dropclickedmenu .dropclickmenu-display .keylinks {
+	display: block;
+	clear: both;
+	border: 0;
+	padding: 1em 0;
+	border-top: 1px solid black;
+}
+.dropclickedmenu .dropclickmenu-display .keylinks h5 {
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 1em;
+	text-align: left;
+}
+.dropclickedmenu .dropclickmenu-display .keylinks ul {
+	margin: 0 1em;
+	padding: 0;
+}
+.dropclickedmenu .dropclickmenu-display .keylinks ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 50%;
+}
+
+
+
+/* admissions slideshow */
+.slideshow-admissions {
+	line-height: 0;
+}
+.slideshow-admissions img {
+	width: 100%;
+	height: auto;
+}
+.slideshow-admissions-text {
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	padding: 3.4375% 6.875%;
+}
+
+/* admissions main content */
+.main-content-wrapper p {
+	margin: 3.4375% 6.875%;
+}
+
+
+
+/* featured video */
+.featured-video .video {
+	text-align: center;
+}
+.featured-video .video img {
+	width: 90%;
+	height: auto;
+}
+
+
+/* action buttons */
+.applynow,
+.open-house,
+.app-stores,
+.accolades,
+.college-portrait {
+	text-align: center;
+}
+
+.keylinks {
+	display: none;
+}
+

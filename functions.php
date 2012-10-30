@@ -16,13 +16,13 @@
  */ 
 function get_component($component, $wrapper = true) {
 
-	$filename = 'components/' . $component . '.php';
+	$filename = $_SERVER['DOCUMENT_ROOT'] . '/components/' . $component . '.php';
 	if (file_exists($filename)) {
 		if ($wrapper) echo '<div class="' . $component . '-wrapper">';
 		include $filename;
 		if ($wrapper) echo '</div>';
 	} else {
-		$filename = 'components/' . $component . '.html';
+		$filename = $_SERVER['DOCUMENT_ROOT'] . '/components/' . $component . '.html';
 		if (file_exists($filename)) {
 			if ($wrapper) echo '<div class="' . $component . '-wrapper">';
 			include $filename;
@@ -41,12 +41,9 @@ function get_component($component, $wrapper = true) {
  */
 function get_title($makepretty = false) {
 
-	$f = end(explode("/", $_SERVER['REQUEST_URI']));
-	if ($f != '' && $f != $_SERVER['HTTP_HOST']) {
-		$f = str_replace(".php", "", $f);
-	} else {
-		$f = 'home';
-	}
+	$f = explode("/", $_SERVER['REQUEST_URI']);
+	$f = $f[1];
+	if ($f == '') $f = 'home';
 	
 	if ($makepretty) $f = ucwords(str_replace("_", " ", $f));
 

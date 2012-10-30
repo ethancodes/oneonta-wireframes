@@ -20,11 +20,11 @@
 			
 			<div class="footer-connect">
 				<h5>Connect with Oneonta</h5>
-				<a href="#"><img src="images/connect-facebook.jpg" alt="facebook" /></a>
-				<a href="#"><img src="images/connect-youtube.jpg" alt="youtube" /></a>
-				<a href="#"><img src="images/connect-linkedin.jpg" alt="linkedin" /></a>
-				<a href="#"><img src="images/connect-stupidarrow.jpg" alt="stupid arrow" /></a>
-				<a href="#"><img src="images/connect-app.jpg" alt="app" /></a>
+				<a href="#"><img src="/images/connect-facebook.jpg" alt="facebook" /></a>
+				<a href="#"><img src="/images/connect-youtube.jpg" alt="youtube" /></a>
+				<a href="#"><img src="/images/connect-linkedin.jpg" alt="linkedin" /></a>
+				<a href="#"><img src="/images/connect-stupidarrow.jpg" alt="stupid arrow" /></a>
+				<a href="#"><img src="/images/connect-app.jpg" alt="app" /></a>
 			</div>
 			
 			<div class="footer-info">
