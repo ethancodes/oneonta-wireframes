@@ -91,6 +91,12 @@
 
 
 .breadcrumb-wrapper {
+	display: block;
+	float: right;
+	width: 79.513%;
+	margin: 0;
+}
+.menu-wrapper .breadcrumb-wrapper {
 	display: none;
 }
 
@@ -139,11 +145,6 @@
 
 
 /* featured video */
-.featured-video-wrapper {
-	float: left;
-	width: 32%;
-	margin-right: 2%
-}
 .featured-video h3 {
 	text-align: left;
 }

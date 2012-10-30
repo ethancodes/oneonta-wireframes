@@ -53,6 +53,9 @@ a img {
 .logo {
 	text-align: center;
 }
+.logo img {
+	max-width: 90%;
+}
 
 .dropclickedmenu .graybox {
 	border: 0;

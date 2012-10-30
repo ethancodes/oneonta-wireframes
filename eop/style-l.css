@@ -76,6 +76,16 @@
 	margin: 2% 0;
 	padding: 0;
 }
+.menu-3 ul li.open a {
+	font-weight: bold;
+}
+.menu-3 ul li.open ul {
+	margin-left: 4%;
+}
+.menu-3 ul li.open ul li a {
+	font-size: 90%;
+	font-weight: normal;
+}
 .menu-3 .keylinks {
 	background-color: white;
 }
@@ -89,8 +99,13 @@
 
 
 
-
 .breadcrumb-wrapper {
+	display: block;
+	float: right;
+	width: 79.513%;
+	margin: 0;
+}
+.menu-wrapper .breadcrumb-wrapper {
 	display: none;
 }
 
