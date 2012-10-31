@@ -16,6 +16,11 @@ $body_classes = array($f);
 <head>
 <title>SUNY Oneonta Wireframes<?php if ($fpretty != '') echo ': ' . $fpretty; ?></title>
 
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!-- default stylesheets -->
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../style-s.css" media="screen and (min-width: 240px) and (max-width: 559px)">
