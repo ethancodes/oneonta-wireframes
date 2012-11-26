@@ -12,8 +12,9 @@ $fpretty = get_title(true);
 $body_classes = array($f);
 
 ?><!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="utf-8">
 <title>SUNY Oneonta Wireframes<?php if ($fpretty != '') echo ': ' . $fpretty; ?></title>
 
 <!-- http://t.co/dKP3o1e -->

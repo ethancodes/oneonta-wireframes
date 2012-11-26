@@ -4,7 +4,7 @@
  */
 function viewportGo_s() {
 	// home page slideshow
-	$('.slideshow').html('<img src="http://placekitten.com/g/825/508" alt="aww">');		
+	$('.slideshow').html('<img src="/images/walkway.jpg" alt="walkway">');		
 	$('body.home').removeClass('background-cover');
 	
 	dropclick();
