@@ -19,7 +19,6 @@
 			</div>
 			
 			<div class="footer-connect">
-				<h5>Connect with Oneonta</h5>
 				<a href="#"><img src="/images/connect-facebook.jpg" alt="facebook" /></a>
 				<a href="#"><img src="/images/connect-youtube.jpg" alt="youtube" /></a>
 				<a href="#"><img src="/images/connect-linkedin.jpg" alt="linkedin" /></a>

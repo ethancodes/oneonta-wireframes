@@ -20,15 +20,17 @@
 		<div class="keylinks-wrapper clearfix"><?php get_component('keylinks', false); ?></div>
 
 	</div>
-	
-	<?php get_component('slideshow'); ?>
+
+	<div class="branding">
+		<?php get_component('applynow'); ?>
+		<?php get_component('slideshow'); ?>
+	</div>
 	
 	<?php get_component('lg'); ?>
 	
 	<?php get_component('featured-video'); ?>
 	
 	<div class="action-wrapper">
-		<?php get_component('applynow'); ?>
 		<?php get_component('keylinks'); ?>
 	</div>
 

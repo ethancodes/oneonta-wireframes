@@ -23,6 +23,9 @@
 		<div class="menu-3 graybox dropclick fullwidth" id="admissions-menu">
 			<?php get_component('secondary-nav'); ?>
 			<?php get_component('keylinks'); ?>
+			<?php get_component('applynow'); ?>
+			<?php get_component('visit-campus'); ?>
+			<?php get_component('open-house'); ?>
 		</div>
 
 		<?php get_component('breadcrumb'); ?>			
@@ -31,6 +34,11 @@
 	<?php get_component('breadcrumb'); ?>			
 	
 	<div class="layout-wrapper">
+	
+		<?php get_component('applynow'); ?>
+		<?php get_component('visit-campus'); ?>
+		<?php get_component('open-house'); ?>
+		<div class="clearfix"></div>		
 	
 		<?php get_component('slideshow-admissions'); ?>
 
@@ -48,8 +56,6 @@
 		</div>
 		
 		<div class="action-wrapper">
-			<?php get_component('applynow'); ?>
-			<?php get_component('open-house'); ?>
 			<?php get_component('app-stores'); ?>
 			<?php get_component('accolades'); ?>
 			<?php get_component('college-portrait'); ?>

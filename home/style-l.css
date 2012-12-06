@@ -4,10 +4,6 @@ body.home.background-cover {
 	background-size: cover;
 }
 
-.slideshow-wrapper {
-	height: 30em;
-}
-
 /* header menu stuff */
 .menu-1a-wrapper {
 	float: right;
@@ -76,6 +72,30 @@ body.home.background-cover {
 	display: none;
 }
 
+.branding {
+	position: relative;
+}
+.branding .applynow-wrapper {
+	position: absolute;
+	bottom: 1em;
+	left: 0;
+}
+.slideshow-wrapper {
+	height: 30em;
+	position: relative;
+}
+.slideshow-components {
+	position: absolute;
+	top: 125px;
+	left: 0;
+}
+.slideshow-caption {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+
 
 /* home page latest and greatest */
 .lg-wrapper {
@@ -128,13 +148,6 @@ body.home.background-cover {
 }
 
 /* action buttons */
-.applynow,
-.open-house,
-.app-stores,
-.accolades,
-.college-portrait {
-	text-align: center;
-}
 
 .keylinks h5 {
 	text-align: center;

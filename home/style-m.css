@@ -54,6 +54,17 @@
 }
 
 
+.branding {
+	position: relative;
+}
+.branding .applynow-wrapper {
+	position: absolute;
+	bottom: 3em;
+	left: 3em;
+	z-index: 99;
+}
+
+
 /* home page slide show */
 .slideshow img {
 	width: 100%;
@@ -106,14 +117,6 @@
 }
 
 /* action buttons */
-.applynow,
-.open-house,
-.app-stores,
-.accolades,
-.college-portrait {
-	text-align: center;
-}
-
 
 .keylinks h5 {
 	text-align: center;

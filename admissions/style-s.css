@@ -22,6 +22,19 @@
 	clear: both;
 }
 
+
+.visit-campus-wrapper {
+	width: 49%;
+	float: left;
+}
+.open-house-wrapper {
+	width: 49%;
+	float: right;
+}
+
+
+
+
 .dropclickedmenu .dropclickmenu-display .search {
 	text-align: center;
 }
@@ -102,6 +115,11 @@
 	width: 50%;
 }
 
+.dropclickedmenu .dropclickmenu-display .applynow-wrapper,
+.dropclickedmenu .dropclickmenu-display .visit-campus-wrapper,
+.dropclickedmenu .dropclickmenu-display .open-house-wrapper {
+	display: none;
+}
 
 
 /* admissions slideshow */
@@ -137,13 +155,6 @@
 
 
 /* action buttons */
-.applynow,
-.open-house,
-.app-stores,
-.accolades,
-.college-portrait {
-	text-align: center;
-}
 
 .keylinks {
 	display: none;

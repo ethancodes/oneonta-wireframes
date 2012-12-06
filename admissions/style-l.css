@@ -101,6 +101,17 @@
 }
 
 
+.applynow-wrapper,
+.visit-campus-wrapper,
+.open-house-wrapper {
+	display: none;
+}
+.menu-3 .applynow-wrapper,
+.menu-3 .visit-campus-wrapper,
+.menu-3 .open-house-wrapper {
+	display: block;
+}
+
 /* admissions layout */
 .layout-wrapper {
 	float: right;

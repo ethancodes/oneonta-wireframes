@@ -58,6 +58,8 @@
 	width: 50%;
 	float: right;
 }
+
+
 .breadcrumb-wrapper {
 	display: none;
 	width: 30%;
@@ -87,6 +89,24 @@
 	margin: 1% 0;
 	padding: 0;
 	text-align: left !important;
+}
+
+.dropclickedmenu .dropclickmenu-display .applynow-wrapper,
+.dropclickedmenu .dropclickmenu-display .visit-campus-wrapper,
+.dropclickedmenu .dropclickmenu-display .open-house-wrapper {
+	display: none;
+}
+
+
+.applynow-wrapper,
+.visit-campus-wrapper {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+}
+.open-house-wrapper {
+	width: 32%;
+	float: right;
 }
 
 
@@ -154,13 +174,6 @@
 }
 
 /* action buttons */
-.applynow,
-.open-house,
-.app-stores,
-.accolades,
-.college-portrait {
-	text-align: center;
-}
 
 .keylinks h5 {
 	text-align: center;
