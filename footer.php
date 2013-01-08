@@ -27,10 +27,8 @@
 			</div>
 			
 			<div class="footer-info">
-				Copyright &copy; 2012 SUNY Oneonta<br />
-				108 Ravine Parkway<br />
-				Oneonta, NY 13820<br />
-				607-436-3500
+				108 Ravine Parkway, Oneonta, NY 13820, 607-436-3500<br />
+				Copyright &copy; 2012 SUNY Oneonta
 			</div>
 			
 			<div class="suny darkgraybox">The Power of SUNY Logo</div>

@@ -1,0 +1,21 @@
+
+.right-column .logo {
+	text-align: center;
+}
+.right-column .logo img {
+	width: 100px;
+	height: auto;
+}
+
+
+/*
+.menu-3 ul ul ul li:before {
+   content: "- ";
+}
+*/
+
+.menu-3 ul ul ul li,
+.dropclickedmenu .dropclickmenu-display ul ul ul li {
+	margin-left: 6%;
+	list-style-type: disc;
+}
