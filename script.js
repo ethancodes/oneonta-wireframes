@@ -59,7 +59,7 @@ function dropclick() {
 		
 		var id = $(this).attr('id');
 		if (!id) { id = "some-menu"; }
-		var label = id.replace("-", " ");
+		var label = id.replace(/-/g, " ");
 		label = label.replace(/^([a-z])|\s+([a-z])/g, function ($1) {
 		    return $1.toUpperCase();
 		});

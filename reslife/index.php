@@ -20,7 +20,7 @@
 			
 		</div>
 	
-		<div class="menu-3 graybox dropclick fullwidth" id="reslife-menu">
+		<div class="menu-3 graybox dropclick fullwidth" id="student-life-menu">
 			<?php get_component('reslife-nav'); ?>
 			<?php get_component('reslife-keylinks'); ?>
 		</div>
